@@ -1,0 +1,54 @@
+{
+  "agent": {
+    "default_profile": "ask",
+    "always_allow_tool_actions": true,
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4"
+    }
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_value_hints": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50,
+    "toggle_on_modifiers_press": {
+      "control": false,
+      "alt": false,
+      "shift": false,
+      "platform": false,
+      "function": false
+    }
+  },
+  "icon_theme": "Zed (Default)",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "dark",
+    "light": "Gruvbox Light",
+    "dark": "Catppuccin Frappé (Blur) [Heavy]"
+  },
+  "project_panel": {
+    "indent_size": 5,
+    "indent_guides": {
+      "show": "never"
+    }
+  },
+  "languages": {
+    "Python": { "language_servers": ["ruff", "pyrefly", "!pyright", "!pylsp"] }
+  },
+  "edit_predictions": {
+    "mode": "subtle"
+  }
+}
