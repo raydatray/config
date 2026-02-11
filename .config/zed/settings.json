@@ -1,10 +1,22 @@
 {
+  "preferred_line_length": 100,
+  "allow_rewrap": "anywhere",
+  "soft_wrap": "preferred_line_length",
+  "buffer_line_height": "comfortable",
+  "terminal": {
+    "dock": "right"
+  },
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    }
+  },
   "agent": {
-    "default_profile": "ask",
+    "default_profile": "write",
     "always_allow_tool_actions": true,
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "model": "claude-opus-4.5"
     }
   },
   "minimap": {
@@ -27,7 +39,6 @@
       "function": false
     }
   },
-  "icon_theme": "Zed (Default)",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -36,13 +47,13 @@
   "buffer_font_size": 14,
   "theme": {
     "mode": "dark",
-    "light": "Gruvbox Light",
-    "dark": "Catppuccin Frappé (Blur) [Heavy]"
+    "light": "Catppuccin Iced Latte (Blur) [Heavy]",
+    "dark": "Catppuccin Mocha (Blur) [Heavy]"
   },
   "project_panel": {
-    "indent_size": 5,
+    "indent_size": 10,
     "indent_guides": {
-      "show": "never"
+      "show": "always"
     }
   },
   "languages": {
@@ -52,3 +63,4 @@
     "mode": "subtle"
   }
 }
+
