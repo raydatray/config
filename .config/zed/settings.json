@@ -8,8 +8,14 @@
   },
   "agent_servers": {
     "opencode": {
-      "type": "registry"
-    }
+      "favorite_models": [
+        "github-copilot/claude-opus-4.6",
+        "openrouter/anthropic/claude-opus-4.6",
+      ],
+      "type": "custom",
+      "command": "opencode",
+      "args": ["acp"],
+    },
   },
   "agent": {
     "default_profile": "write",
